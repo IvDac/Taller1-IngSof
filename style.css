@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    padding: 30px;
+    background: #8b0000;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 50px;
+}
+
+#ruleta {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #c40000 0deg 30deg,
+        #111 30deg 60deg,
+        #c40000 60deg 90deg,
+        #111 90deg 120deg,
+        #c40000 120deg 150deg,
+        #111 150deg 180deg,
+        #c40000 180deg 210deg,
+        #111 210deg 240deg,
+        #c40000 240deg 270deg,
+        #111 270deg 300deg,
+        #c40000 300deg 330deg,
+        #111 330deg 360deg
+    );
+
+    border: 10px solid #d4af37;
+    box-shadow: 0 0 30px #d4af37;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background: #d4af37;
+    color: #111;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #fff;
+}
