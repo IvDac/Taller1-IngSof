@@ -67,3 +67,16 @@ button {
 button:hover {
     background: #fff;
 }
+
+#ruleta {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ruleta span {
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+}
