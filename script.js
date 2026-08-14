@@ -15,3 +15,8 @@ boton.addEventListener("click", () => {
         resultado.textContent = "Resultado: " + numero;
     }, 4000);
 });
+const reiniciar = document.getElementById("reiniciar");
+
+reiniciar.addEventListener("click", () => {
+    resultado.textContent = "Resultado: -";
+});
